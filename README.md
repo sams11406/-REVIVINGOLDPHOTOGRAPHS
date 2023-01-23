@@ -1,14 +1,14 @@
 You can now play with our [Colab](https://colab.research.google.com/drive/1rer0g8BYgfLXcuv410qljkX8JlCltMHY?usp=sharing) and try it on your photos. 
 
 
-<img src='imgs/0001.jpg'/>
+
 
 <!-- ## Notes of this project
 The code originates from our research project and the aim is to demonstrate the research idea, so we have not optimized it from a product perspective. And we will spend time to address some common issues, such as out of memory issue, limited resolution, but will not involve too much in engineering problems, such as speedup of the inference, fastapi deployment and so on. **We welcome volunteers to contribute to this project to make it more usable for practical application.** -->
 
 The framework now supports the restoration of high-resolution input.
 
-<img src='imgs/HR_result.png'>
+
 
 Training code is available and welcome to have a try and learn the training details. 
 
@@ -98,7 +98,7 @@ python detection.py --test_path [test_image_folder_path] \
                     --input_size [resize_256|full_size|scale_256]
 ```
 
-<img src='imgs/scratch_detection.png'>
+
 
 ### 3) Global Restoration
 
@@ -120,7 +120,7 @@ python test.py --Quality_restore \
                --outputs_dir [output_path]
 ```
 
-<img src='imgs/global.png'>
+
 
 
 ### 4) Face Enhancement
@@ -132,7 +132,7 @@ We use a progressive generator to refine the face regions of old photos. More de
 </p>
 
 
-<img src='imgs/face.png'>
+
 
 > *NOTE*: 
 > This repo is mainly for research purpose and we have not yet optimized the running performance. 
@@ -151,7 +151,7 @@ A user-friendly GUI which takes input of image by user and shows result in respe
 4. Wait for a while and see results on GUI window.
 5. Exit window by clicking Exit Window and get your result image in output folder.
 
-<img src='imgs/gui.PNG'>
+
 
 ## How to train?
 
